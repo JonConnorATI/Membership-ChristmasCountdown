@@ -1,16 +1,18 @@
 *{
-    padding: 0px;
-    margin: 0px;
+    
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 10px;
    
 }
 body{
-    max-width: 900px;
+    /*max-width: 900px;*/
     margin: 0px auto;
-    background-color:whitesmoke;
-    background-size: cover;
+    background:#583491;
+    
+    
     /*display: flex;*/
     /*flex-direction: column;*/
     align-items: center;
@@ -39,18 +41,18 @@ body{
 
 h1{
     font-size: 2.5rem;
-    color: #723d5e;
+    color: #ffff;
     padding-bottom: 10px;
     
 }
 
 .title--image {
-    max-width: 75%;
+    max-width: 40%;
 }
 
 h3{
     font-size: 2rem;
-    color: #723d5e;
+    color: #ffff;
 }
 
 .big_text_days , .big_text_hours , .big_text_mins , .big_text_sec{
@@ -64,42 +66,15 @@ p{
     font-size: 1.5rem;
     text-align: center;
     max-width: 75%;
+    color:#ffff;
 }
 .spantext{
-    color: #103c28;
+    color: red;
     margin: 0px 1rem;
     font-size: 1.5rem;
     font-style: italic;
 }
 .text_sec{
-    color : #005259;
+    color : red;
 }
 
-table{
-    /*border: 1px solid black;*/
-    border-spacing: unset;
-    width: 75%;
-    margin: auto;
-}
-
-tr, td {
-    /*border: 1px solid black;*/
-    font-size: 1.5rem;
-}
-
-.description {
-    width: 30%;
-    
-}
- 
-.data {
-    width: 70%;
-}
-
-.odd {
-    background-color: beige;
-}
-
-.even {
-    background-color: blueviolet;
-}
