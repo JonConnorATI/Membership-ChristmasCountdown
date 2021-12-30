@@ -1,7 +1,7 @@
 /*Declare the function */
 function Clock(){
     let d1 = new Date();
-    let d2 = new Date("25 December 2021 00:00");
+    let d2 = new Date("25 December 2022 00:00");
 
     let difference = Math.abs(d1 - d2); //to get absolute value
     //calculate for each one
